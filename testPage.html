@@ -5,8 +5,12 @@
     <title>Test Page</title>
 </head>
 <body>
+    <h2>Personal Information</h2>
+    <label for="firstName">First Name:</label>
     <input type="text" id="firstName" name="firstName" placeholder="Enter your first name"><br>
     
+    <h2>BTS Members</h2>
+    <label for="btsMembers">Choose your favorite BTS member:</label>
     <select id="btsMembers" name="btsMembers">
         <option value="jhope">jhope</option>
         <option value="v">v</option>
@@ -17,6 +21,8 @@
         <option value="jimin">jimin</option>
     </select><br>
     
+    <h2>Favorite Colors</h2>
+    <label for="favoriteColors">Choose your favorite colors:</label>
     <select id="favoriteColors" name="favoriteColors" multiple>
         <option value="red">Red</option>
         <option value="blue">Blue</option>
@@ -26,18 +32,21 @@
         <option value="orange">Orange</option>
     </select><br>
     
-    <input type="submit" value="Submit"><br>
-    
+    <h2>Preferences</h2>
+    <label for="favoriteColor">Choose your favorite color:</label>
     <input type="color" id="favoriteColor" name="favoriteColor" value="#ff0000"><br>
     
+    <label for="birthDate">Birth Date:</label>
     <input type="date" id="birthDate" name="birthDate" value="2024-07-24" min="1980-04-01" max="2099-04-30"><br>
     
+    <h2>Gender</h2>
     <input type="radio" id="genderMale" name="gender" value="male">
     <label for="genderMale">Male</label><br>
     
     <input type="radio" id="genderFemale" name="gender" value="female">
     <label for="genderFemale">Female</label><br>
 
+    <h2>Hobbies</h2>
     <input type="checkbox" id="hobbyReading" name="hobbies" value="reading">
     <label for="hobbyReading">Reading</label><br>
     
@@ -46,5 +55,7 @@
     
     <input type="checkbox" id="hobbyCooking" name="hobbies" value="cooking">
     <label for="hobbyCooking">Cooking</label><br>
+    
+    <input type="submit" value="Submit"><br>
 </body>
 </html>
